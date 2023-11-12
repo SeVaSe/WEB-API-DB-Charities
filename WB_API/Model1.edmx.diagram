@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="374220e07b684a26a4ce3ef35d765590" Name="Diagram1">
+        <EntityTypeShape EntityType="CharityMobileModel.Charity" Width="1.5" PointX="5.25" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CharityMobileModel.Country" Width="1.5" PointX="3" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CharityMobileModel.Gender" Width="1.5" PointX="3" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CharityMobileModel.Registration" Width="1.5" PointX="7.5" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="CharityMobileModel.Role" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CharityMobileModel.Runner" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="CharityMobileModel.User" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="CharityMobileModel.FK_Registration_Charity" ManuallyRouted="false" />
+        <AssociationConnector Association="CharityMobileModel.FK__Runner__CountryC__44FF419A" ManuallyRouted="false" />
+        <AssociationConnector Association="CharityMobileModel.FK__Runner__Gender__46E78A0C" ManuallyRouted="false" />
+        <AssociationConnector Association="CharityMobileModel.FK_Registration_Runner" ManuallyRouted="false" />
+        <AssociationConnector Association="CharityMobileModel.FK__User__RoleId__47DBAE45" ManuallyRouted="false" />
+        <AssociationConnector Association="CharityMobileModel.FK__Runner__Email__45F365D3" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
